@@ -24,6 +24,8 @@
 
 This project demonstrates the application of the CRISP-DM (Cross Industry Standard Process for Data Mining) framework to analyze and predict Airbnb rental prices in Boston. Using data from the [Boston Airbnb dataset on Kaggle](https://www.kaggle.com/datasets/airbnb/boston/data), the aim is to systematically approach a data mining project, from understanding the business problem to deploying a model. By understanding the factors that influence Airbnb rental prices, hosts can optimize their listings and maximize revenue.
 
+**For a brief overview of a practical client presentation, visit my** [Medium page](https://medium.com/@sindeauxdaniel/here-are-the-essentials-you-should-consider-before-pricing-your-airbnb-86ba84a68c2b).
+
 ### Significance
 
 As a former consultant and current data scientist, this project serves as an educational resource, illustrating that by clearly identifying and articulating the problem, we ensure that the project's goals align with the client's objectives, address the right scope, and focus on specific challenges. This structured approach not only enhances the clarity and effectiveness of the analysis but also provides a replicable methodology for future data mining projects.

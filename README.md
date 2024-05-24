@@ -1,8 +1,5 @@
 # Airbnb Analysis using CRISP-DM 
 
-##Date created
-2023/05/24
-
 ## Table of Contents
 - [Installations](#installations)
 - [Project Description](#project-description)
@@ -51,14 +48,14 @@ If you enjoyed reading my notebook, feel free to send me any comments so we can 
 
 ## Results and Discussion
 Considering the Main Points of this analysis,
-1.The first thing you should look for is what does the competition in your city look like. If you have an apartment, compare what you provide with these types of properties.
-2.Pricing tends to be relatively consistent across different property types. The value you provide has more impact in other features.
-3.Middle-range prices are the most common, while higher and lower prices are less frequent
-4.location of your homestay significantly impacts its value. The most expensive areas are typically close to key attractions such as the city center, tourist spots, the airport, and the coast
-5.The number of accommodates is the most critical feature. Guests value options that fit their needs, such as elevators, TVs, air conditioning, and internet. Some of these amenities might be challenging to provide, but creativity in offering these can be highly valuable.
-6.If you have an extra room, add a bed! Properties if more beds, bedrooms, and guests included, generally have higher prices.
-7.Hosts with more listings tend to charge higher prices, possibly due to a more professional or business-like approach. Consider asking experienced hosts for tips on attracting high-quality clients.
-8.Information like summary, host about and review scores rating, generally considered of high importance, do not impact in the value of homestays. Indeed, the quality of these descriptions is expected at any price condition you place. You must have then if you want to consider having any AirBnb accommodations.
+1. The first thing you should look for is what does the competition in your city look like. If you have an apartment, compare what you provide with these types of properties.
+2. Pricing tends to be relatively consistent across different property types. The value you provide has more impact in other features.
+3. Middle-range prices are the most common, while higher and lower prices are less frequent.
+4. location of your homestay significantly impacts its value. The most expensive areas are typically close to key attractions such as the city center, tourist spots, the airport, and the coast
+5. The number of accommodates is the most critical feature. Guests value options that fit their needs, such as elevators, TVs, air conditioning, and internet. Some of these amenities might be challenging to provide, but creativity in offering these can be highly valuable.
+6. If you have an extra room, add a bed! Properties if more beds, bedrooms, and guests included, generally have higher prices.
+7. Hosts with more listings tend to charge higher prices, possibly due to a more professional or business-like approach. Consider asking experienced hosts for tips on attracting high-quality clients.
+8. Information like summary, host about and review scores rating, generally considered of high importance, do not impact in the value of homestays. Indeed, the quality of these descriptions is expected at any price condition you place. You must have then if you want to consider having any AirBnb accommodations.
 
 ## Licensing, Authors, Acknowledgements
 This project wouldn't be possible without the help of my mentors at Udacity. Follow their [Udacity course](https://www.udacity.com/course/data-scientist-nanodegree--nd025) to learn more

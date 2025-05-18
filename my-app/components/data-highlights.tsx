@@ -4,13 +4,6 @@ import Image from "next/image"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
-const propertyTypeData = [
-  { type: "Apartment", count: 72.86, fill: "hsl(var(--chart-1))" },
-  { type: "House", count: 15.68, fill: "hsl(var(--chart-2))" },
-  { type: "Condominium", count: 6.44, fill: "hsl(var(--chart-3))" },
-  { type: "Others", count: 5.02, fill: "hsl(var(--chart-4))" },
-]
-
 export function DataHighlights() {
   return (
     <section className="container py-8">

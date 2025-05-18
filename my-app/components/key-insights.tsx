@@ -69,7 +69,7 @@ export function KeyInsights() {
                 <li>Other property types (red) are scattered throughout, with no clear geographic pattern</li>
               </ul>
               <p className="text-sm text-muted-foreground">
-                This distribution reflects Boston's urban development patterns and helps explain some of the price
+                This distribution reflects Boston&apos;s urban development patterns and helps explain some of the price
                 variations seen in the previous map.
               </p>
             </div>

@@ -1,24 +1,24 @@
-# Airbnb Analysis using CRISP-DM 
+# Unlocking Airbnb Insights: A Data-Driven Solution Powered by CRISP-DM
+
+---
+
+## 🌐 Live Application
+
+You can now access the interactive version clicking here:  
+🔗 **[https://airbnb-analysis-sigma.vercel.app](https://airbnb-analysis-sigma.vercel.app)**
+
+[![App Preview](.github/preview.png)](https://airbnb-analysis-sigma.vercel.app)
+
+---
 
 ## Table of Contents
-- [Installations](#installations)
 - [Project Description](#project-description)
+- [Technologies Used](#🧪-technologies-used)
+- [Installations](#⚙️-installations)
 - [File Descriptions](#file-descriptions)
 - [How to Interact with the Project](#how-to-interact-with-the-project)
 - [Results and Discussion](#results-and-discussion)
 - [Licensing, Authors, Acknowledgements, etc.](#licensing-authors-acknowledgements)
-
-## Installations
-
-### Prerequisites
-- **Python 3.7 or higher**: Ensure you have Python installed. You can download it from the [official Python website](https://www.python.org/downloads/).
-- **Git**: To clone the repository. Download it from the [official Git website](https://git-scm.com/).
-
-### Dependencies
-- numpy==1.21.5
-- pandas==1.4.4
-- seaborn==0.11.2
-- matplotlib==3.8.4
 
 ## Project Description
 
@@ -38,13 +38,82 @@ The primary objectives of this project are:
 - **Data Preparation and Cleaning**: Process the dataset to ensure it is suitable for analysis and modeling.
 - **Model Building and Evaluation**: Develop models to estimate rental prices and evaluate their performance.
 
-## File Descriptions
+## 🧪 Technologies Used
+
+- **Python** for EDA and data processing (`eda/` folder)
+- **Jupyter Notebooks** for CRISP-DM workflow
+- **Next.js + React + Tailwind CSS** for the web app (`my-app/` folder)
+- **Vercel** for frontend hosting and CI/CD
+
+## ⚙️ Installations
+
+This project consists of two parts:
+A CRISP-DM-based data analysis workflow in Python (via Jupyter Notebook)
+A Next.js web app that displays the insights from the analysis
+
+You can work with either or both components depending on your needs.
+
+### 📊 1. Run the CRISP-DM Analysis Locally (Jupyter Notebook)
+
+#### ✅ Prerequisites
+
+Python 3.7 or higher
+Jupyter Notebook or JupyterLab
+Git (to clone the repo)
+
+#### 🚀 Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/danielsbraga/CRISP-DM-Airbnb-Analysis.git
+cd CRISP-DM-Airbnb-Analysis
+
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the Jupyter notebook
+jupyter notebook eda/AirbnbAnalysis.ipynb
+```
+
+This will open the notebook where you can explore the full data science process using the CRISP-DM framework: from business understanding through data exploration and visualization.
+
+### 🖥️ 2. Run the Frontend App Locally (Next.js)
+
+If you want to run the interactive web dashboard on your machine:
+
+#### ✅ Prerequisites
+
+```bash
+# Navigate to the frontend app directory
+cd my-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+# Then open this URL in your browser
+http://localhost:3000
+```
+
+This will launch the frontend version of the project, allowing users to explore charts and summaries derived from the data analysis.
+
+## 📁 File Descriptions
+
 Overview of the main files and directories in the repository:
-- `README.md`: This file.
-- `AirbnbAnalysis.ipynb`: The Jupyter Notebook with the analysis.
-- `requirements.txt`: Required dependencies for main code.
-- `plots/`: Plots made by the main code.
-- `data/`: Directory containing the dataset.
+
+- `README.md` This file. Provides project context, setup instructions, and links.
+- `AirbnbAnalysis.ipynb` Jupyter Notebook implementing the CRISP-DM methodology with exploratory data analysis (EDA) on Airbnb listings.
+- `requirements.txt` Lists the Python dependencies required to run the Jupyter notebook and analysis code.
+- `plots/` Folder containing generated plots and visualizations used during the analysis phase.
+- `data/` Contains the dataset(s) used for analysis. May include raw and/or preprocessed files.
+- `my-app/` The Next.js frontend application that presents key insights via an interactive web interface. Deployed to [airbnb-analysis-sigma.vercel.app](https://airbnb-analysis-sigma.vercel.app).
+
 
 ## How to Interact with the Project
 The dataset use here is open source. I strongly advise you to make your own project using CRISP-DM. I would very much like to see the different questions you had and how you made it.
